@@ -43,9 +43,6 @@ WHERE first_name = 'Hercules'
 AND last_name LIKE 'B%';
 
 --6. List all employees in the Sales department, including their employee number, last name, first name, and department name.
-SELECT emp_no, last_name, first_name,
-	(SELECT )
-
 SELECT employees.emp_no,
 employees.last_name,
 employees.first_name,
