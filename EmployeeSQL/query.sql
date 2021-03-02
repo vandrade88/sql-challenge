@@ -70,5 +70,5 @@ WHERE departments.dept_name IN ('Sales', 'Development');
 SELECT COUNT(last_name) as "last name count", last_name
 FROM employees
 GROUP BY last_name
-ORDER BY "last name count"
+ORDER BY "last name count";
 
