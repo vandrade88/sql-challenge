@@ -1,5 +1,3 @@
-SELECT *
-FROM departments;
 
 --1. List the following details of each employee: employee number, last name, first name, sex, and salary.
 SELECT emp_no, last_name, first_name, sex,
